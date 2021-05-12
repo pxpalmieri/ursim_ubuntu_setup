@@ -3,6 +3,7 @@
 This page describes how to have Ursim running in Ubuntu 20.04 LTS.
 The latest Ursim could be downloaded from [here](https://www.universal-robots.com/download/software-cb-series/simulator-linux/offline-simulator-cb3-linux-ursim-3150/). Unzip the files using
 ```
+cd ~
 tar -xvf filename.tar
 ```
 
@@ -28,6 +29,7 @@ tar -xvf filename.tar
 
 4. Run the following lines to make files executable
 ```
+cd ursim-3.15.0.106151/
 sudo chmod +x start-ursim.sh
 sudo chmod +x starturcontrol.sh
 sudo chmod +x stopurcontrol.sh
